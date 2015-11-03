@@ -58,7 +58,7 @@ angular.module('poupatudo', [
             RestangularProvider.setBaseUrl('/poupatudo-web/rest/');
 
             RestangularProvider.setRestangularFields({
-                id: "empNo"
+                id: "number"
             });
         })
 

@@ -16,7 +16,7 @@ angular.module('poupatudo.service', [])
                         }
                         messageService.add(messageObj);
                     } catch (ex) {
-                        console.log('$httpProvider', ex);
+                        messageService.info({message: ex});
                     }
                     return $q.reject(rejection);
                 }
@@ -175,7 +175,7 @@ angular.module('poupatudo.service', [])
             };
         })
 
-        .factory('utilCRUD', ['Restangular', function (Restangular) {
+        .factory('utilCRUD', ['Restangular','$http', function (Restangular, $http) {
                 return {
                     route: function (route) {
                         return route;
@@ -202,8 +202,8 @@ angular.module('poupatudo.service', [])
                     salvar: function (object) {
                         return Restangular.all(this.route).post(object);
                     },
-                    remover: function(object){
-                        return Restangular.one(this.route, object).remove();
+                    remover: function(id){
+                        return $http.delete("/poupatudo-web/rest/"+this.route+"/"+id)
                     },
                     atualizar: function (object) {
                         return object.put();

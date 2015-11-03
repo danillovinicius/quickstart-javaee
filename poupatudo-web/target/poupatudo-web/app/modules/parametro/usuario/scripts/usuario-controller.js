@@ -10,26 +10,28 @@
 
     function UsuarioController($scope, memberService, messageService) {
 
+        $scope.filtro = {};
         $scope.currentPage = 1;
 
         $scope.paginar = function () {
-            memberService.paginar($scope.currentPage, 10).then(function (retorno) {
-                $scope.pager = retorno.list;
-                $scope.total = $scope.pager.total;
-            });
+            find();
         };
 
         $scope.pesquisar = function () {
             $scope.currentPage = 1;
+            find();
+        };
+
+        function find(){
             memberService.paginar($scope.currentPage, 10).then(function (retorno) {
                 $scope.pager = retorno.list;
-                $scope.total = $scope.pager.total;
+                $scope.total = retorno.total;
             });
-        };
+        }
 
         $scope.limpar = function () {
             $scope.consultaForm.$setPristine();
-            $scope.conta = {};
+            $scope.member = {};
             $scope.pager = null;
             $scope.currentPage = 1;
         };
@@ -47,7 +49,6 @@
     function UsuarioUpdateController($scope, messageService, $stateParams, memberService, $state) {
 
         memberService.obterID($stateParams.id).then(function (retorno) {
-            //$scope.member = retorno.plain() || {};
             $scope.member = retorno
             ;
         });
@@ -69,8 +70,6 @@
     }
 
     function UsuarioCreateController($scope, messageService, memberService, $state) {
-
-        //$scope.member = {name: "Usuario",email: "email@email.com",phoneNumber: "9999-0000",address: "Avenida Central, 999"};
         $scope.member = {};
 
         $scope.form = {

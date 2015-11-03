@@ -25,7 +25,7 @@
 
                                     <div class="col-sm-10">
                                         <input id="nome" name="nome" type="text" class="form-control" maxlength="50"
-                                               minlength="3" placeholder="Preencha a descrição" ng-model="cartao.nome"/>
+                                               minlength="3" placeholder="Preencha a descrição" ng-model="filtro.name"/>
                                     </div>
                                 </div>
                             </div>
@@ -49,7 +49,7 @@
         </div>
     </div>
 
-    <div class="row">
+    <div class="row" ng-show="pager">
         <div class="col-md-12">
             <div class="box box-primary">
                 <div class="box-header with-border">
@@ -57,7 +57,7 @@
                 </div>
                 <div class="box-body">
                     <p ng-hide="pager.length">Nenhum resultado.</p>
-
+                    <p ng-show="pager.length">Quantidade registros : {{total}}</p>
                     <div ng-show="pager.length" class="table-responsive">
                         <table class="table table-hover table-condensed no-margin">
                             <thead>
@@ -95,7 +95,8 @@
                         </table>
                         <pagination total-items="total" ng-model="currentPage" max-size="7"
                                     class="pagination-sm pull-right" ng-change="paginar()"
-                                    boundary-links="true"></pagination>
+                                    boundary-links="true">
+                        </pagination>
                     </div>
                 </div>
             </div>
