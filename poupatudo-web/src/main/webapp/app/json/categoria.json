@@ -1,0 +1,10 @@
+[
+  {"codigo":"1","descricao":"Alimentação","cor":"#0000ee","subcategoria":false,"categoria_pai":""},
+  {"codigo":"2","descricao":"Lazer","cor":"#0073b7","subcategoria":false,"categoria_pai":""},
+  {"codigo":"3","descricao":"Moradia","cor":"#01ff70","subcategoria":false,"categoria_pai":""},
+  {"codigo":"4","descricao":"Outros","cor":"#111111","subcategoria":false,"categoria_pai":""},
+  {"codigo":"5","descricao":"Salário","cor":"#39CCCC","subcategoria":false,"categoria_pai":""},
+  {"codigo":"8","descricao":"Indra","cor":"#001F3F","subcategoria":true,"categoria_pai":"5"},
+  {"codigo":"6","descricao":"Saúde","cor":"#f39c12","subcategoria":false,"categoria_pai":""},
+  {"codigo":"7","descricao":"Transporte","cor":"#f56954","subcategoria":false,"categoria_pai":""}
+]

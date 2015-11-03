@@ -1,0 +1,8 @@
+[
+  {"codigo":"1","nome":"Banco do brasil","tipo":"Conta Corrente","descricao":"","saldoInicial":100},
+  {"codigo":"2","nome":"Banco Itaú","tipo":"Conta Corrente","descricao":"","saldoInicial":200},
+  {"codigo":"3","nome":"Banco Santander","tipo":"Conta Corrente","descricao":"","saldoInicial":10},
+  {"codigo":"4","nome":"Banco Santander","tipo":"Conta Poupança","descricao":"","saldoInicial":60},
+  {"codigo":"5","nome":"Banco Bradesco","tipo":"Outros","descricao":"","saldoInicial":550},
+  {"codigo":"6","nome":"Carteira","tipo":"Carteira","descricao":"","saldoInicial":800}
+]

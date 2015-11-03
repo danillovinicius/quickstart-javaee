@@ -1,0 +1,97 @@
+<section class="content-header">
+    <h1>
+        Usuários
+        <small>Usuários do sistema</small>
+    </h1>
+    <ol class="breadcrumb">
+        <li><a ui-sref="dashboard"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="active"><i class="fa fa-group"></i> Usuários</li>
+    </ol>
+</section>
+
+<section class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box box-primary">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Filtro</h3>
+                </div>
+                <form name="consultaCartaoForm" class="form-horizontal" novalidate role="form">
+                    <div class="box-body">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-group">
+                                    <label for="nome" class="col-sm-2 control-label">Usuário</label>
+
+                                    <div class="col-sm-10">
+                                        <input id="nome" name="nome" type="text" class="form-control" maxlength="50"
+                                               minlength="3" placeholder="Preencha a descrição" ng-model="cartao.nome"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box-footer">
+                        <button ui-sref="usuarionew" class="btn btn-sm btn-default">
+                            <i class="fa fa-plus-circle"> Incluir</i>
+                        </button>
+                        <button ng-click="pesquisar()" type="button" class="btn btn-sm btn-default">
+                            <i class="fa fa-search"> Pesquisar</i>
+                        </button>
+                        <button ng-click="limpar()" type="button" class="btn btn-sm btn-default">
+                            <i class="fa fa-undo"> Limpar</i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box box-primary">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Resultado da consulta</h3>
+                </div>
+                <div class="box-body">
+                    <p ng-hide="pager.length">Nenhum resultado.</p>
+
+                    <div ng-show="pager.length" class="table-responsive">
+                        <table class="table table-hover table-condensed no-margin">
+                            <thead>
+                            <tr>
+                                <th>Cartão</th>
+                                <th>Bandeira</th>
+                                <th>Status</th>
+                                <th width="10%">Ações</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr ng-repeat="item in pager">
+                                <td>{{item.nome}}</td>
+                                <td>{{item.bandeira}}</td>
+                                <td>{{item.limite}}</td>
+                                <td>
+                                    <div class="btn-group btn-group-xs">
+                                        <a ui-sref="cartaoview({id:item.codigo})" class="btn btn-sm btn-default"
+                                           tooltip-placement="top" tooltip="Detalhar">
+                                            <i class="fa fa-search"></i></a>
+                                        <a ui-sref="cartaoupdate({id:item.codigo})" class="btn btn-sm btn-default"
+                                           tooltip-placement="top" tooltip="Alterar">
+                                            <i class="fa fa-pencil"></i></a>
+                                    </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <pagination total-items="total" ng-model="currentPage" max-size="7"
+                                    class="pagination-sm pull-right" ng-change="paginar()"
+                                    boundary-links="true"></pagination>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

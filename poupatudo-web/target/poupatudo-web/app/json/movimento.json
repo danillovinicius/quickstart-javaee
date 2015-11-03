@@ -1,0 +1,68 @@
+[
+  {
+    "codigo": "1",
+    "data_lcto": "21/09/2015",
+    "data_vcto": "21/09/2015",
+    "valor": 100,
+    "descricao": "Desc Movimentação 001",
+    "tipo": "receita",
+    "categoria": "",
+    "conta":"",
+    "pago": false
+  },
+  {
+    "codigo": "2",
+    "data_lcto": "21/09/2015",
+    "data_vcto": "21/09/2015",
+    "valor": 136.33,
+    "descricao": "Desc Movimentação 002",
+    "tipo": "despesa",
+    "categoria": "",
+    "conta":"",
+    "pago": true
+  },
+  {
+    "codigo": "6",
+    "data_lcto": "21/09/2015",
+    "data_vcto": "21/09/2015",
+    "valor": 900,
+    "descricao": "Desc Movimentação 006",
+    "tipo": "despesa",
+    "categoria": "",
+    "conta":"",
+    "pago": false
+  },
+  {
+    "codigo": "3",
+    "data_lcto": "21/09/2015",
+    "data_vcto": "21/09/2015",
+    "valor": 800,
+    "descricao": "Desc Movimentação 003",
+    "tipo": "receita",
+    "categoria": "",
+    "conta":"",
+    "pago": true
+  },
+  {
+    "codigo": "4",
+    "data_lcto": "21/08/2015",
+    "data_vcto": "21/09/2015",
+    "valor": 1670,
+    "descricao": "Desc Movimentação 004",
+    "tipo": "despesa",
+    "categoria": "",
+    "conta":"",
+    "pago": true
+  },
+  {
+    "codigo": "5",
+    "data_lcto": "21/03/2015",
+    "data_vcto": "29/04/2015",
+    "valor": 1002,
+    "descricao": "Desc Movimentação 005",
+    "tipo": "receita",
+    "categoria": "",
+    "conta":"",
+    "pago": false
+  }
+]

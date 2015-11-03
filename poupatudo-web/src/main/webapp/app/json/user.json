@@ -1,0 +1,34 @@
+[
+  {
+    "codigo": "0",
+    "nome": "Danilo Lima",
+    "login":"dvlima",
+    "userRole": "admin",
+    "image":"avatar5.png",
+    "ativo": true
+  },
+  {
+    "codigo": "1",
+    "nome": "User ADMIN",
+    "login":"admin",
+    "userRole": "admin",
+    "image":"avatar1.png",
+    "ativo": true
+  },
+  {
+    "codigo": "2",
+    "nome": "User EDITOR",
+    "login":"editor",
+    "userRole": "editor",
+    "image":"avatar2.png",
+    "ativo": true
+  },
+  {
+    "codigo": "3",
+    "nome": "User GUEST",
+    "login":"guest",
+    "userRole": "guest",
+    "image":"avatar3.png",
+    "ativo": true
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {"codigo":"1","nome":"Santander","bandeira":"VISA","limite":1500,"contaPgto":"","diaFechamento":10,"diaVencimento":20},
+  {"codigo":"2","nome":"Santander","bandeira":"MASTERCARD","limite":800,"contaPgto":"","diaFechamento":20,"diaVencimento":30},
+  {"codigo":"3","nome":"Banco do Brasil","bandeira":"VISA","limite":800,"contaPgto":"","diaFechamento":5,"diaVencimento":15},
+  {"codigo":"4","nome":"Magazine Luíza","bandeira":"VISA","limite":550,"contaPgto":"","diaFechamento":12,"diaVencimento":20},
+  {"codigo":"5","nome":"Banco Itaú","bandeira":"VISA","limite":500,"contaPgto":"","diaFechamento":13,"diaVencimento":21}
+]

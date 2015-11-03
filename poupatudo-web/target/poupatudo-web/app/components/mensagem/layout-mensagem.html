@@ -1,0 +1,27 @@
+<div class="alert message-fixed-top" ng-repeat="alert in alerts"  ng-class="'alert-'+alert.type" role="alert">
+    <button type="button" class="close" ng-click="alert.close()">
+        <span aria-hidden="true">&times;</span>
+        <span class="sr-only">Close</span>
+    </button>
+
+    <!--<p><span ng-if="alert.message" class="badge">{{alert.count}}</span> {{alert.message}}</p>-->
+    <!--<p><span ng-if="!alert.message" class="badge">{{alert.count}}</span> {{alert.messageProperties }}</p>-->
+    
+    <p>{{alert.message}}</p>
+    <p>{{alert.messageProperties }}</p>
+    <p ng-show="alert.detail">
+        <button type="button" class="btn btn-xs bt btn-default" ng-click="alert.detailShow = !alert.detailShow">Detalhar</button>
+    </p>
+    <div ng-show="alert.detailShow">
+        <hr>
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h4><b>Código:</b> {{alert.code}}</h4>
+                <h4><b>Data:</b> {{alert.date}}</h4>
+                <div class="detail-message">
+                    {{alert.detail}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,56 @@
+<div class="row">
+    <div class="col-lg-4">
+        <div class="form-group">
+            <label>Nome</label>
+            <input id="nome" name="nome" type="text" class="form-control" validator="required, length"
+                   ng-model="cartao.nome" valid-method="submit-only" , message-id="required1" minlength="0" maxlength="55"/>
+            <span id="required1" class="help-block"></span>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="form-group">
+            <label>Bandeira</label>
+            <input id="bandeira" name="bandeira" type="text" class="form-control" validator="required, length"
+                   ng-model="cartao.bandeira" valid-method="submit-only" , message-id="required2" minlength="0" maxlength="25"/>
+            <span id="required2" class="help-block"></span>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="form-group">
+            <label>Conta para Pagamento</label>
+            <select name="repeatSelect" class="form-control" ng-model="cartao.contaPgto">
+                <option ng-repeat="option in contas" value="{{option.codigo}}">{{option.nome}}</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-4">
+        <div class="form-group">
+            <label>Limite</label>
+            <input id="limite" name="limite" type="number" class="form-control" validator="required, length"
+                   ng-model="cartao.limite"
+                   valid-method="submit-only" , message-id="required3" minlength="0" maxlength="25"/>
+            <span id="required3" class="help-block"></span>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="form-group">
+            <label>Dia Fechamento</label>
+            <input id="diaFechamento" name="diaFechamento" type="number" class="form-control" validator="required, length"
+                   ng-model="cartao.diaFechamento"
+                   valid-method="submit-only" , message-id="required4" minlength="0" maxlength="2"/>
+            <span id="required4" class="help-block"></span>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="form-group">
+            <label>Dia Vencimento</label>
+            <input id="diaVencimento" name="diaVencimento" type="number" class="form-control" validator="required, length"
+                   ng-model="cartao.diaVencimento"
+                   valid-method="submit-only" , message-id="required5" minlength="0" maxlength="2"/>
+            <span id="required5" class="help-block"></span>
+        </div>
+    </div>
+</div>
