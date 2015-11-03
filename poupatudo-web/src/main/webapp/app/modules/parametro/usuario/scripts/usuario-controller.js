@@ -5,8 +5,8 @@
 
         .controller('UsuarioController', ['$scope', 'messageService', UsuarioController])
         .controller('UsuarioCreateController', ['$scope', 'messageService', 'memberService', '$state', UsuarioCreateController])
-        .controller('UsuarioUpdateController', ['$scope', 'messageService', '$stateParams', UsuarioUpdateController])
-        .controller('UsuarioViewController', ['$scope', 'messageService', '$stateParams', UsuarioViewController]);
+        .controller('UsuarioUpdateController', ['$scope', 'messageService', '$stateParams', 'memberService', '$state', UsuarioUpdateController])
+        .controller('UsuarioViewController', ['$scope', 'messageService', '$stateParams','memberService', UsuarioViewController]);
 
     function UsuarioController($scope, messageService) {
 
@@ -36,27 +36,27 @@
 
     }
 
-    function UsuarioUpdateController($scope, messageService, $stateParams) {
+    function UsuarioUpdateController($scope, messageService, $stateParams, memberService, $state) {
 
 
-        //contaService.obterID($stateParams.id).then(function (retorno) {
-        //    $scope.conta = retorno || {};
-        //});
+        memberService.obterID($stateParams.id).then(function (retorno) {
+            $scope.member = retorno || {};
+        });
 
-        //$scope.form = {
-        //    submit: actionUpdate
-        //};
-        //
-        //function actionUpdate() {
-        //    contaService.atualizar($scope.conta)
-        //        .then(function (retorno) {
-        //            messageService.success({messageProperties: 'MS002'});
-        //            $state.go('conta');
-        //        })
-        //        .catch(function (e) {
-        //            messageService.error({messageProperties: 'WS002', detail: e});
-        //        });
-        //}
+        $scope.form = {
+            submit: actionUpdate
+        };
+
+        function actionUpdate() {
+            memberService.atualizar($scope.member)
+                .then(function (retorno) {
+                    messageService.success({messageProperties: 'MS002'});
+                    $state.go('usuario');
+                })
+                .catch(function (e) {
+                    messageService.error({messageProperties: 'WS002', detail: e});
+                });
+        }
     }
 
     function UsuarioCreateController($scope, messageService, memberService, $state) {
@@ -82,19 +82,17 @@
                     messageService.error({message: e});
                 });
         }
-
-
     }
 
-    function UsuarioViewController($scope, messageService, $stateParams) {
+    function UsuarioViewController($scope, messageService, $stateParams, memberService) {
 
-        //contaService.obterID($stateParams.id)
-        //        .then(function (retorno) {
-        //            $scope.conta = retorno || {};
-        //        })
-        //        .catch(function (e) {
-        //            messageService.error({messageProperties: 'WS002', detail: e});
-        //        });
+        memberService.obterID($stateParams.id)
+            .then(function (retorno) {
+                $scope.member = retorno || {};
+            })
+            .catch(function (e) {
+                messageService.error({messageProperties: 'WS002', detail: e});
+            });
     }
 
 })(window, window.angular);
