@@ -18,9 +18,7 @@ angular.module('poupatudo', [
 
     'poupatudo.preference',
     'poupatudo.dashboard',
-    'poupatudo.usuario',
-    'poupatudo.categoria', 
-    'poupatudo.conta',
+    'poupatudo.member',
     'poupatudo.profile'
 ])
 

@@ -1,6 +1,6 @@
 /* global angular */
 
-angular.module('poupatudo.usuario', [
+angular.module('poupatudo.member', [
     'poupatudo.usuario.service',
     'poupatudo.usuario.controller'
 ])
