@@ -1,4 +1,4 @@
-package br.com.poupatudo.util;
+package br.com.poupatudo.persistence.jpa;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.inject.Produces;
