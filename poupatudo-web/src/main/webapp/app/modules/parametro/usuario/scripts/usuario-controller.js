@@ -3,44 +3,44 @@
 
     angular.module('poupatudo.usuario.controller', [])
 
-        .controller('UsuarioController', ['$scope', 'messageService', UsuarioController])
+        .controller('UsuarioController', ['$scope', 'memberService', UsuarioController])
         .controller('UsuarioCreateController', ['$scope', 'messageService', 'memberService', '$state', UsuarioCreateController])
         .controller('UsuarioUpdateController', ['$scope', 'messageService', '$stateParams', 'memberService', '$state', UsuarioUpdateController])
         .controller('UsuarioViewController', ['$scope', 'messageService', '$stateParams','memberService', UsuarioViewController]);
 
-    function UsuarioController($scope, messageService) {
+    function UsuarioController($scope, memberService) {
 
-        //$scope.currentPage = 1;
-        //
-        //$scope.paginar = function () {
-        //    contaService.paginar($scope.currentPage, 10).then(function (retorno) {
-        //        $scope.pager = retorno;
-        //        $scope.total = $scope.pager.total;
-        //    });
-        //};
-        //
-        //$scope.pesquisar = function () {
-        //    $scope.currentPage = 1;
-        //    contaService.paginar($scope.currentPage, 10).then(function (retorno) {
-        //        $scope.pager = retorno;
-        //        $scope.total = $scope.pager.total;
-        //    });
-        //};
-        //
-        //$scope.limpar = function () {
-        //    $scope.consultaContaForm.$setPristine();
-        //    $scope.conta = {};
-        //    $scope.pager = null;
-        //    $scope.currentPage = 1;
-        //};
+        $scope.currentPage = 1;
+
+        $scope.paginar = function () {
+            memberService.paginar($scope.currentPage, 10).then(function (retorno) {
+                $scope.pager = retorno.list;
+                $scope.total = $scope.pager.total;
+            });
+        };
+
+        $scope.pesquisar = function () {
+            $scope.currentPage = 1;
+            memberService.paginar($scope.currentPage, 10).then(function (retorno) {
+                $scope.pager = retorno.list;
+                $scope.total = $scope.pager.total;
+            });
+        };
+
+        $scope.limpar = function () {
+            $scope.consultaForm.$setPristine();
+            $scope.conta = {};
+            $scope.pager = null;
+            $scope.currentPage = 1;
+        };
 
     }
 
     function UsuarioUpdateController($scope, messageService, $stateParams, memberService, $state) {
 
-
         memberService.obterID($stateParams.id).then(function (retorno) {
-            $scope.member = retorno || {};
+            //$scope.member = retorno.plain() || {};
+            $scope.member = retorno;
         });
 
         $scope.form = {
@@ -61,12 +61,8 @@
 
     function UsuarioCreateController($scope, messageService, memberService, $state) {
 
-        $scope.member = {
-            name: "Usuario",
-            email: "email@email.com",
-            phoneNumber: "9999-0000",
-            address: "Avenida Central, 999"
-        };
+        //$scope.member = {name: "Usuario",email: "email@email.com",phoneNumber: "9999-0000",address: "Avenida Central, 999"};
+        $scope.member = {};
 
         $scope.form = {
             submit: actionSave

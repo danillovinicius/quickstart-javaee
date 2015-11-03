@@ -56,6 +56,10 @@ angular.module('poupatudo', [
 
         .config(function (RestangularProvider) {
             RestangularProvider.setBaseUrl('/poupatudo-web/rest/');
+
+            RestangularProvider.setRestangularFields({
+                id: "empNo"
+            });
         })
 
         .config(function ($httpProvider) {

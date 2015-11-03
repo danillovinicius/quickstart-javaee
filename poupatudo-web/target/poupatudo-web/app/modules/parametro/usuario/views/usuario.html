@@ -16,7 +16,7 @@
                 <div class="box-header with-border">
                     <h3 class="box-title">Filtro</h3>
                 </div>
-                <form name="consultaCartaoForm" class="form-horizontal" novalidate role="form">
+                <form name="consultaForm" class="form-horizontal" novalidate role="form">
                     <div class="box-body">
                         <div class="row">
                             <div class="col-md-6 col-sm-6">
@@ -62,23 +62,27 @@
                         <table class="table table-hover table-condensed no-margin">
                             <thead>
                             <tr>
-                                <th>Cartão</th>
-                                <th>Bandeira</th>
-                                <th>Status</th>
+                                <th>ID</th>
+                                <th>Nome</th>
+                                <th>Email</th>
+                                <th>Endereço</th>
+                                <th>Telefone</th>
                                 <th width="10%">Ações</th>
                             </tr>
                             </thead>
                             <tbody>
                             <tr ng-repeat="item in pager">
-                                <td>{{item.nome}}</td>
-                                <td>{{item.bandeira}}</td>
-                                <td>{{item.limite}}</td>
+                                <td>{{item.id}}</td>
+                                <td>{{item.name}}</td>
+                                <td>{{item.email}}</td>
+                                <td>{{item.address}}</td>
+                                <td>{{item.phoneNumber}}</td>
                                 <td>
                                     <div class="btn-group btn-group-xs">
-                                        <a ui-sref="cartaoview({id:item.codigo})" class="btn btn-sm btn-default"
+                                        <a ui-sref="usuarioview({id:item.id})" class="btn btn-sm btn-default"
                                            tooltip-placement="top" tooltip="Detalhar">
                                             <i class="fa fa-search"></i></a>
-                                        <a ui-sref="cartaoupdate({id:item.codigo})" class="btn btn-sm btn-default"
+                                        <a ui-sref="usuarioupdate({id:item.id})" class="btn btn-sm btn-default"
                                            tooltip-placement="top" tooltip="Alterar">
                                             <i class="fa fa-pencil"></i></a>
                                     </div>

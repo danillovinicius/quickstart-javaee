@@ -8,5 +8,4 @@ angular.module('poupatudo.usuario.service', [])
         });
     }])
 
-
 ;
