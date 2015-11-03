@@ -3,12 +3,12 @@
 
     angular.module('poupatudo.usuario.controller', [])
 
-        .controller('UsuarioController', ['$scope', 'memberService', UsuarioController])
+        .controller('UsuarioController', ['$scope', 'memberService', 'messageService', UsuarioController])
         .controller('UsuarioCreateController', ['$scope', 'messageService', 'memberService', '$state', UsuarioCreateController])
         .controller('UsuarioUpdateController', ['$scope', 'messageService', '$stateParams', 'memberService', '$state', UsuarioUpdateController])
-        .controller('UsuarioViewController', ['$scope', 'messageService', '$stateParams','memberService', UsuarioViewController]);
+        .controller('UsuarioViewController', ['$scope', 'messageService', '$stateParams', 'memberService', UsuarioViewController]);
 
-    function UsuarioController($scope, memberService) {
+    function UsuarioController($scope, memberService, messageService) {
 
         $scope.currentPage = 1;
 
@@ -34,13 +34,22 @@
             $scope.currentPage = 1;
         };
 
+        $scope.remover = function (id) {
+            memberService.remover(id).then(function (retorno) {
+                messageService.success({messageProperties: 'MS003'});
+                $scope.pager = null;
+                $scope.currentPage = 1;
+            });
+        }
+
     }
 
     function UsuarioUpdateController($scope, messageService, $stateParams, memberService, $state) {
 
         memberService.obterID($stateParams.id).then(function (retorno) {
             //$scope.member = retorno.plain() || {};
-            $scope.member = retorno;
+            $scope.member = retorno
+            ;
         });
 
         $scope.form = {

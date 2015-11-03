@@ -79,12 +79,15 @@
                                 <td>{{item.phoneNumber}}</td>
                                 <td>
                                     <div class="btn-group btn-group-xs">
-                                        <a ui-sref="usuarioview({id:item.id})" class="btn btn-sm btn-default"
-                                           tooltip-placement="top" tooltip="Detalhar">
-                                            <i class="fa fa-search"></i></a>
-                                        <a ui-sref="usuarioupdate({id:item.id})" class="btn btn-sm btn-default"
-                                           tooltip-placement="top" tooltip="Alterar">
-                                            <i class="fa fa-pencil"></i></a>
+                                        <a ui-sref="usuarioview({id:item.id})" class="btn btn-sm btn-default" tooltip-placement="top" tooltip="Detalhar">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                        <a ui-sref="usuarioupdate({id:item.id})" class="btn btn-sm btn-default" tooltip-placement="top" tooltip="Alterar">
+                                            <i class="fa fa-pencil"></i>
+                                        </a>
+                                        <a ng-click="remover(item.id)" class="btn btn-sm btn-default" tooltip-placement="top" tooltip="Excluir" >
+                                            <i class="fa fa-trash"></i>
+                                        </a>
                                     </div>
                                 </td>
                             </tr>

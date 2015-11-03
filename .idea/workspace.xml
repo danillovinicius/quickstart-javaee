@@ -2,19 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b27c0093-c75a-4ddb-aedf-f6b40d99c632" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/json/cartao.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/json/categoria.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/json/conta.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/json/movimento.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/json/projeto.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poupatudo-web/target/poupatudo-web/app/json/cartao.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poupatudo-web/target/poupatudo-web/app/json/categoria.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poupatudo-web/target/poupatudo-web/app/json/conta.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poupatudo-web/target/poupatudo-web/app/json/movimento.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poupatudo-web/target/poupatudo-web/app/json/projeto.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poupatudo-ear/target/poupatudo/poupatudo-ejb.jar" afterPath="$PROJECT_DIR$/poupatudo-ear/target/poupatudo/poupatudo-ejb.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poupatudo-ear/target/poupatudo/poupatudo-web.war" afterPath="$PROJECT_DIR$/poupatudo-ear/target/poupatudo/poupatudo-web.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poupatudo-ear/target/poupatudo.ear" afterPath="$PROJECT_DIR$/poupatudo-ear/target/poupatudo.ear" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/app.js" afterPath="$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poupatudo-ejb/src/main/resources/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/poupatudo-ejb/src/main/resources/META-INF/persistence.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poupatudo-ejb/target/classes/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/poupatudo-ejb/target/classes/META-INF/persistence.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poupatudo-ejb/target/poupatudo-ejb/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/poupatudo-ejb/target/poupatudo-ejb/META-INF/persistence.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/common/service.js" afterPath="$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/common/service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poupatudo-web/target/poupatudo-web/app/common/service.js" afterPath="$PROJECT_DIR$/poupatudo-web/target/poupatudo-web/app/common/service.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/modules/parametro/usuario/scripts/usuario-controller.js" afterPath="$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/modules/parametro/usuario/scripts/usuario-controller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poupatudo-web/target/poupatudo-web/app/modules/parametro/usuario/scripts/usuario-controller.js" afterPath="$PROJECT_DIR$/poupatudo-web/target/poupatudo-web/app/modules/parametro/usuario/scripts/usuario-controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/modules/parametro/usuario/scripts/usuario-service.js" afterPath="$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/modules/parametro/usuario/scripts/usuario-service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poupatudo-web/target/poupatudo-web/app/modules/parametro/usuario/scripts/usuario-service.js" afterPath="$PROJECT_DIR$/poupatudo-web/target/poupatudo-web/app/modules/parametro/usuario/scripts/usuario-service.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/modules/parametro/usuario/views/usuario.html" afterPath="$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/modules/parametro/usuario/views/usuario.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poupatudo-web/target/poupatudo-web/app/modules/parametro/usuario/views/usuario.html" afterPath="$PROJECT_DIR$/poupatudo-web/target/poupatudo-web/app/modules/parametro/usuario/views/usuario.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/modules/parametro/usuario/views/usuario_form.html" afterPath="$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/modules/parametro/usuario/views/usuario_form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poupatudo-web/target/poupatudo-web/app/modules/parametro/usuario/views/usuario_form.html" afterPath="$PROJECT_DIR$/poupatudo-web/target/poupatudo-web/app/modules/parametro/usuario/views/usuario_form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/modules/parametro/usuario/views/usuario_form_view.html" afterPath="$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/modules/parametro/usuario/views/usuario_form_view.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poupatudo-web/target/poupatudo-web/app/modules/parametro/usuario/views/usuario_form_view.html" afterPath="$PROJECT_DIR$/poupatudo-web/target/poupatudo-web/app/modules/parametro/usuario/views/usuario_form_view.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="poupatudo.iws" />
@@ -40,7 +53,85 @@
     <favorites_list name="poupatudo" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="MemberRest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/poupatudo-web/src/main/java/br/com/poupatudo/rest/MemberRest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <element signature="e#581#582#0" expanded="true" />
+                <element signature="e#617#618#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usuario_view.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/modules/parametro/usuario/views/usuario_view.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usuario_form_view.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/modules/parametro/usuario/views/usuario_form_view.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.0">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usuario.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/modules/parametro/usuario/views/usuario.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.46">
+              <caret line="88" column="71" selection-start-line="88" selection-start-column="71" selection-end-line="88" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usuario_form.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/modules/parametro/usuario/views/usuario_form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-21.333334">
+              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usuario-controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/modules/parametro/usuario/scripts/usuario-controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="38" column="65" selection-start-line="38" selection-start-column="65" selection-end-line="38" selection-end-column="65" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="service.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/common/service.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="206" column="22" selection-start-line="206" selection-start-column="22" selection-end-line="206" selection-end-column="22" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -67,7 +158,6 @@
         <option value="$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/modules/parametro/usuario/usuario-module.js" />
         <option value="$PROJECT_DIR$/poupatudo-web/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/common/directive.js" />
-        <option value="$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/modules/parametro/usuario/views/usuario_form.html" />
         <option value="$PROJECT_DIR$/poupatudo-ejb/src/main/java/br/com/poupatudo/persistence/DAOManter.java" />
         <option value="$PROJECT_DIR$/poupatudo-ejb/src/main/java/br/com/poupatudo/persistence/pager/Pager.java" />
         <option value="$PROJECT_DIR$/poupatudo-ejb/src/main/java/br/com/poupatudo/persistence/filter/Filter.java" />
@@ -88,12 +178,14 @@
         <option value="$PROJECT_DIR$/poupatudo-web/src/main/java/br/com/poupatudo/rest/MemberRest.java" />
         <option value="$PROJECT_DIR$/poupatudo-ejb/src/main/java/br/com/poupatudo/service/bean/MemberBean.java" />
         <option value="$PROJECT_DIR$/poupatudo-ejb/src/main/java/br/com/poupatudo/service/MemberService.java" />
-        <option value="$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/modules/parametro/usuario/views/usuario.html" />
-        <option value="$PROJECT_DIR$/poupatudo-ejb/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/modules/parametro/usuario/scripts/usuario-service.js" />
+        <option value="$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/app.js" />
+        <option value="$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/modules/parametro/usuario/views/usuario_form_view.html" />
+        <option value="$PROJECT_DIR$/poupatudo-ejb/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/modules/parametro/usuario/views/usuario_form.html" />
         <option value="$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/common/service.js" />
         <option value="$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/modules/parametro/usuario/scripts/usuario-controller.js" />
-        <option value="$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/app.js" />
+        <option value="$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/modules/parametro/usuario/views/usuario.html" />
       </list>
     </option>
   </component>
@@ -119,8 +211,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1366" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1600" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -161,9 +253,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -544,6 +633,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="json" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="poupatudo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seed_pt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="poupatudo-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -870,6 +993,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1250,15 +1376,16 @@
       <workItem from="1446515972707" duration="227000" />
       <workItem from="1446540456914" duration="7279000" />
       <workItem from="1446562727130" duration="8825000" />
+      <workItem from="1446586440288" duration="2716000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16331000" />
+    <option name="totallyTimeSpent" value="19047000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1366" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="false" />
+    <frame x="1366" y="0" width="1600" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1270,7 +1397,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33026317" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1279,7 +1406,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973261" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967742" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="EJB" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1334,7 +1461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1342,9 +1468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.51598674">
           <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1352,17 +1475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/modules/parametro/usuario/views/usuario_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.225">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1370,22 +1482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.4472362">
           <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-          <folding>
-            <element signature="e#400#401#0" expanded="false" />
-            <element signature="e#432#433#0" expanded="false" />
-            <element signature="e#462#463#0" expanded="false" />
-            <element signature="e#490#491#0" expanded="false" />
-            <element signature="e#530#531#0" expanded="false" />
-            <element signature="e#564#565#0" expanded="false" />
-            <element signature="e#599#600#0" expanded="false" />
-            <element signature="e#629#630#0" expanded="false" />
-            <element signature="e#676#677#0" expanded="false" />
-            <element signature="e#714#715#0" expanded="false" />
-            <element signature="e#746#747#0" expanded="false" />
-            <element signature="e#773#774#0" expanded="false" />
-            <element signature="e#814#815#0" expanded="false" />
-            <element signature="e#846#847#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1393,13 +1489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.0854272">
           <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#286#287#0" expanded="false" />
-            <element signature="e#336#337#0" expanded="false" />
-            <element signature="e#430#431#0" expanded="false" />
-            <element signature="e#480#481#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1407,14 +1496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1457286">
           <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#194#238#0" expanded="false" />
-            <element signature="e#476#477#0" expanded="false" />
-            <element signature="e#506#507#0" expanded="false" />
-            <element signature="e#542#543#0" expanded="false" />
-            <element signature="e#585#586#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1422,9 +1503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33737597">
           <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1432,9 +1510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5125628">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1442,16 +1517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.50586265">
           <caret line="98" column="20" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#588#589#0" expanded="false" />
-            <element signature="e#653#654#0" expanded="false" />
-            <element signature="e#1278#1279#0" expanded="false" />
-            <element signature="e#1329#1330#0" expanded="false" />
-            <element signature="e#2613#2643#0" expanded="false" />
-            <element signature="e#3214#3215#0" expanded="false" />
-            <element signature="e#3255#3256#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1459,7 +1524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1467,12 +1531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8492462">
           <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#328#358#0" expanded="false" />
-            <element signature="e#1506#1507#0" expanded="false" />
-            <element signature="e#1558#1559#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1480,13 +1538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="6.005025">
           <caret line="247" column="1" selection-start-line="247" selection-start-column="1" selection-end-line="247" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#720#744#0" expanded="false" />
-            <element signature="e#1163#1177#0" expanded="false" />
-            <element signature="e#2074#2104#0" expanded="false" />
-            <element signature="e#5866#5877#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1510,9 +1561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33737597">
           <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1520,9 +1568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.47629547">
           <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1530,19 +1575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.55567807">
           <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#435#436#0" expanded="false" />
-            <element signature="e#485#486#0" expanded="false" />
-            <element signature="e#531#532#0" expanded="false" />
-            <element signature="e#580#581#0" expanded="false" />
-            <element signature="e#883#884#0" expanded="false" />
-            <element signature="e#934#935#0" expanded="false" />
-            <element signature="e#1018#1019#0" expanded="false" />
-            <element signature="e#1069#1070#0" expanded="false" />
-            <element signature="e#1150#1151#0" expanded="false" />
-            <element signature="e#1195#1196#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1550,21 +1582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.0319735">
           <caret line="52" column="65" selection-start-line="52" selection-start-column="65" selection-end-line="52" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#529#530#0" expanded="false" />
-            <element signature="e#573#574#0" expanded="false" />
-            <element signature="e#684#685#0" expanded="false" />
-            <element signature="e#733#734#0" expanded="false" />
-            <element signature="e#844#845#0" expanded="false" />
-            <element signature="e#895#896#0" expanded="false" />
-            <element signature="e#1007#1008#0" expanded="false" />
-            <element signature="e#1047#1048#0" expanded="false" />
-            <element signature="e#1159#1160#0" expanded="false" />
-            <element signature="e#1199#1200#0" expanded="false" />
-            <element signature="e#1343#1344#0" expanded="false" />
-            <element signature="e#1404#1405#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1574,18 +1591,6 @@
           <caret line="28" column="27" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poupatudo-web/src/main/java/br/com/poupatudo/rest/MemberRest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#581#582#0" expanded="false" />
-            <element signature="e#617#618#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1604,9 +1609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19845645">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1650,9 +1652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.32160804">
           <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1668,25 +1667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2713568">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poupatudo-ejb/src/main/resources/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3316583">
-          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/modules/parametro/usuario/views/usuario.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6315789">
-          <caret line="83" column="37" selection-start-line="83" selection-start-column="37" selection-end-line="83" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1694,7 +1674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1702,29 +1681,85 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36683416">
           <caret line="61" column="15" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poupatudo-web/src/main/java/br/com/poupatudo/rest/MemberRest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/modules/parametro/usuario/scripts/usuario-controller.js">
+    <entry file="file://$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/modules/parametro/usuario/views/usuario_view.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63316584">
-          <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/modules/parametro/usuario/views/usuario_form_view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poupatudo-ejb/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4159664">
+          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/modules/parametro/usuario/views/usuario_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.333334">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/common/service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.90954775">
-          <caret line="205" column="34" selection-start-line="205" selection-start-column="34" selection-end-line="205" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="206" column="22" selection-start-line="206" selection-start-column="22" selection-end-line="206" selection-end-column="22" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/json/message.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07714286">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/modules/parametro/usuario/scripts/usuario-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="65" selection-start-line="38" selection-start-column="65" selection-end-line="38" selection-end-column="65" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poupatudo-web/src/main/webapp/app/modules/parametro/usuario/views/usuario.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46">
+          <caret line="88" column="71" selection-start-line="88" selection-start-column="71" selection-end-line="88" selection-end-column="71" />
+          <folding />
         </state>
       </provider>
     </entry>

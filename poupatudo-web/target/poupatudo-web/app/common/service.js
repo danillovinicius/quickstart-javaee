@@ -202,6 +202,9 @@ angular.module('poupatudo.service', [])
                     salvar: function (object) {
                         return Restangular.all(this.route).post(object);
                     },
+                    remover: function(object){
+                        return Restangular.one(this.route, object).remove();
+                    },
                     atualizar: function (object) {
                         return object.put();
                     }
