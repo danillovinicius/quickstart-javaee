@@ -19,9 +19,13 @@ public class MemberRest {
     MemberService memberService;
 
     @POST
-    @Path("json")
     public void incluir(Member m) throws Exception{
         memberService.register(m);
+    }
+
+    @PUT
+    public void atualizar() throws Exception{
+
     }
 
 }

@@ -24,32 +24,4 @@ angular.module('poupatudo.directive', [])
         };
     })
 
-    .directive('tipo', [
-        function () {
-            return {
-                restrict: 'E',
-                scope: {
-                    tipo: "="
-                },
-                replace: true,
-                template: '<i class="fa {{icone}}"></i>',
-                controller: function ($scope) {
-
-                    function verificarTIPO() {
-                        if ($scope.tipo == 'despesa') {
-                            $scope.icone = "fa-arrow-down tipo-despesa";
-                        } else if ($scope.tipo == 'receita') {
-                            $scope.icone = "fa-arrow-up tipo-receita";
-                        } else if ($scope.tipo == 'transferencia') {
-                            $scope.icone = "fa-random tipo-transferencia";
-                        }
-                    }
-
-                    $scope.$watch('tipo', function () {
-                        verificarTIPO();
-                    });
-
-                }
-            }
-        }])
-;
+ ;

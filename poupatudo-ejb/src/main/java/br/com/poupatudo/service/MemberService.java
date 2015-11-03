@@ -18,4 +18,6 @@ public class MemberService {
     public void register(Member member) throws Exception {
         em.persist(member);
     }
+
+
 }

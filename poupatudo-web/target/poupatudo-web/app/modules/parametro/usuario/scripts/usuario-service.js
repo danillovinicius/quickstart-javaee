@@ -2,9 +2,9 @@
 
 angular.module('poupatudo.usuario.service', [])
 
-    .service('usuarioService', ['utilCRUD', function (utilCRUD) {
+    .service('memberService', ['utilCRUD', function (utilCRUD) {
         return angular.extend({}, utilCRUD, {
-            route: 'usuario'
+            route: 'member'
         });
     }])
 
