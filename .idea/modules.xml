@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/poupatudo.iml" filepath="$PROJECT_DIR$/poupatudo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/poupatudo-ear/poupatudo-ear.iml" filepath="$PROJECT_DIR$/poupatudo-ear/poupatudo-ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/poupatudo-ejb/poupatudo-ejb.iml" filepath="$PROJECT_DIR$/poupatudo-ejb/poupatudo-ejb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/poupatudo-web/poupatudo-web.iml" filepath="$PROJECT_DIR$/poupatudo-web/poupatudo-web.iml" />
+    </modules>
+  </component>
+</project>

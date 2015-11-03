@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="poupatudo-ear:ear">
+    <output-path>$PROJECT_DIR$/poupatudo-ear/target</output-path>
+    <root id="archive" name="poupatudo.ear">
+      <element id="artifact" artifact-name="poupatudo-ear:ear exploded" />
+    </root>
+  </artifact>
+</component>
