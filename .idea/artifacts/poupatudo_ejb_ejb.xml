@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="ejb-jar" name="poupatudo-ejb:ejb">
-    <output-path>$PROJECT_DIR$/poupatudo-ejb/target</output-path>
-    <root id="archive" name="poupatudo-ejb.jar">
-      <element id="artifact" artifact-name="poupatudo-ejb:ejb exploded" />
-    </root>
-  </artifact>
-</component>

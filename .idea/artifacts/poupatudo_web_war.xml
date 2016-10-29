@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="poupatudo-web:war">
-    <output-path>$PROJECT_DIR$/poupatudo-web/target</output-path>
-    <root id="archive" name="poupatudo-web.war">
-      <element id="artifact" artifact-name="poupatudo-web:war exploded" />
-    </root>
-  </artifact>
-</component>
